@@ -1,0 +1,15 @@
+﻿<Window x:Class="WpfApp1.HelpWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp1"
+        mc:Ignorable="d"
+        Title="HelpWindow" Height="450" Width="800">
+    <Grid>
+        <Button x:Name="btn_close" Content="Close" HorizontalAlignment="Left" Margin="684,371,0,0" VerticalAlignment="Top" Width="75" Click="btn_close_Click"/>
+        <Label x:Name="lbl_help" Content="SimFarm Fence Calculator Help" HorizontalAlignment="Left" Margin="258,24,0,0" VerticalAlignment="Top" FontSize="20"/>
+        <Label x:Name="lbl_directions" Content="Stuff" HorizontalAlignment="Left" Margin="258,91,0,0" VerticalAlignment="Top" RenderTransformOrigin="1.031,-1.13"/>
+
+    </Grid>
+</Window>
